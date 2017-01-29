@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
 
-## Write a short comment describing this function
+##Note: have changed set, get list elements from the makeVector sample to be 
+##setorig, getorig -- so swapping in new matrix will use testVector$setorig 
+##rather than testVector$set
 
 makeCacheMatrix <- function(x = matrix()) {
 
